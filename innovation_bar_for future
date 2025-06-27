@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logistics Innovation</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #89d5f8;
+    }
+
+    .innovation-section {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    .innovation-title {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: #2a2a2a;
+    }
+
+    .innovation-subtitle {
+      text-align: center;
+      font-size: 1.2em;
+      color: #2b2f30;
+      margin-bottom: 40px;
+    }
+
+    .innovation-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .innovation-card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .innovation-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .innovation-card h3 {
+      margin-top: 0;
+      color: #1a73e8;
+    }
+
+    .innovation-card p {
+      color: #444;
+      font-size: 0.95em;
+    }
+
+    @media (max-width: 600px) {
+      .innovation-title {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="innovation-section">
+    <h2 class="innovation-title">Logistics Innovation</h2>
+    <p class="innovation-subtitle">Future-ready solutions transforming logistics and supply chains</p>
+
+    <div class="innovation-grid">
+      <div class="innovation-card">
+        <h3>Smart Warehousing</h3>
+        <p>Automated picking, smart sensors, and AI-powered inventory systems increase warehouse efficiency.</p>
+      </div>
+
+      <div class="innovation-card">
+        <h3>AI & Machine Learning</h3>
+        <p>Predict demand, optimize routes, and enable smarter decisions across the supply chain.</p>
+      </div>
+
+      <div class="innovation-card">
+        <h3>Green Logistics</h3>
+        <p>Eco-friendly vehicles and packaging to reduce carbon footprint and support sustainability goals.</p>
+      </div>
+
+      <div class="innovation-card">
+        <h3>Blockchain Security</h3>
+        <p>Transparent, tamper-proof transaction records that secure logistics and ensure compliance.</p>
+      </div>
+
+      <div class="innovation-card">
+        <h3>Last-Mile Delivery</h3>
+        <p>Using drones, smart lockers, and real-time tracking to improve final-mile delivery experience.</p>
+      </div>
+
+      <div class="innovation-card">
+        <h3>Data-Driven Visibility</h3>
+        <p>Live dashboards and analytics help you track, optimize, and scale logistics in real-time.</p>
+      </div>
+    </div>
+  </section>
+   <footer
+      style="
+        background-color: #23b3e7;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        bottom: 0.5;
+        font-weight: bold;">
+      🚚 Need to go back?
+      <a href="projects.html" style="color: black; text-decoration: underline"
+        >Click here to return to Home Page</a>
+        
+
+</body>
+</html>
+ 
